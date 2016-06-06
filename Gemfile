@@ -15,6 +15,12 @@ gem 'puma'
 
 group :development, :test do
   gem 'byebug'
+  gem 'sqlite3'
+  gem 'rspec-rails'
+end
+
+group :test do
+	gem 'capybara'
 end
 
 group :doc do
@@ -23,7 +29,6 @@ end
 
 group :development do
   gem 'web-console', '~> 2.0'
-  gem 'sqlite3'
   gem 'spring'
 end
 
